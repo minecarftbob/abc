@@ -1,0 +1,6 @@
+# Hanbit custom items - Java 1.21.4+ item_model 방식
+# 기존 원본 아이템 텍스처는 덮지 않습니다. 아래처럼 item_model이 붙은 아이템만 커스텀으로 보입니다.
+
+/give @p minecraft:compass[minecraft:item_model="hanbit:menu_item",minecraft:item_name='{"text":"메뉴 아이템","italic":false,"color":"green"}'] 1
+/give @p minecraft:ender_chest[minecraft:item_model="hanbit:random_box",minecraft:item_name='{"text":"랜덤 박스","italic":false,"color":"light_purple"}'] 1
+/give @p minecraft:paper[minecraft:item_model="hanbit:sethome_ticket",minecraft:item_name='{"text":"셋홈권","italic":false,"color":"gold"}'] 1

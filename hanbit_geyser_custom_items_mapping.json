@@ -1,0 +1,50 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:compass": [
+      {
+        "type": "definition",
+        "model": "hanbit:menu_item",
+        "bedrock_identifier": "hanbit:menu_item",
+        "display_name": "메뉴 아이템",
+        "bedrock_options": {
+          "icon": "hanbit:menu_item",
+          "creative_category": "items"
+        },
+        "components": {
+          "minecraft:max_stack_size": 1
+        }
+      }
+    ],
+    "minecraft:ender_chest": [
+      {
+        "type": "definition",
+        "model": "hanbit:random_box",
+        "bedrock_identifier": "hanbit:random_box",
+        "display_name": "랜덤 박스",
+        "bedrock_options": {
+          "icon": "hanbit:random_box",
+          "creative_category": "items"
+        },
+        "components": {
+          "minecraft:max_stack_size": 64
+        }
+      }
+    ],
+    "minecraft:paper": [
+      {
+        "type": "definition",
+        "model": "hanbit:sethome_ticket",
+        "bedrock_identifier": "hanbit:sethome_ticket",
+        "display_name": "셋홈권",
+        "bedrock_options": {
+          "icon": "hanbit:sethome_ticket",
+          "creative_category": "items"
+        },
+        "components": {
+          "minecraft:max_stack_size": 64
+        }
+      }
+    ]
+  }
+}
